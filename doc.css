@@ -1,0 +1,97 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color:rgb(242,229,229);
+	font-family: 'ABeeZee', sans-serif;
+}
+
+h1{
+	font-size:60px;
+	padding:4px 3px 4px 3px;
+	color:rgb(140,92,80);
+}
+
+h2{
+	text-align: center;
+	color:rgb(140,92,80);
+	font-size:40px;
+}
+
+h3{
+	font-size:23px;
+	color:rgb(140,92,80);
+}
+
+img{
+	position:relative;
+	top:25px;
+}
+
+a{
+	text-decoration: none;
+	color:rgb(0,0,0);
+	background-color:rgb(242,229,229);
+    font-size: 1,7em;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    margin:auto;
+    padding: 15px;
+    border-radius:10px;
+}
+
+p{
+	color:rgb(121,118,118);
+	font-size:15px;
+	text-align:justify;
+	text-align:center;
+}
+
+.navbar ul{
+
+	list-style:none;
+	display: flex;
+	justify-content: space-around;
+	color:rgb(140,92,80);
+	margin-top:20px;
+}
+
+.banner{
+	text-align: center;
+	padding: 150px 60px 150px 60px;
+	background-image: url(images/homepage.jpg);
+	background-size: cover;
+	height: 80vh;
+	padding-top:100px;
+}
+
+.card-container{
+	display: flex;
+	padding:30px;	
+}
+
+.card{
+	width:400px;
+	background-color:rgb(255,245,238);
+	text-align: center;
+	height:600px;
+	margin-right:50px;
+	margin-left:50px;
+	margin-top:10px;
+}
+
+.cercle{
+	display:block;
+	width:240px;
+	height:240px;
+	margin:55px auto;
+	border-radius:50%;
+}
+
+.reseaux{
+	list-style: none;
+	justify-content: space-around;
+	margin-left:600px;
+}
